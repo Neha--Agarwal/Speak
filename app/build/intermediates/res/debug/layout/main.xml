@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#cc6699"
+    android:padding="20dp"
+    >
+<EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:hint="Enter the text"
+    android:layout_above="@+id/start_button"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="70dp"
+    android:id="@+id/editText" />
+<Button android:id="@+id/start_button"
+	android:text="@string/play_it_sam"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="194dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter the text to be spoken"
+        android:id="@+id/textView"
+        android:layout_above="@+id/editText"
+        android:layout_alignLeft="@+id/editText" />
+</RelativeLayout>
+<!-- From: file:/home/neha/Desktop/Speak/app/src/main/res/layout/main.xml -->

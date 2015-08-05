@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/neha/Desktop/Speak/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Speakr</string>
+    <string name="play_it_sam">Speak</string>
+</resources>
